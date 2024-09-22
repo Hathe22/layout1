@@ -1,0 +1,49 @@
+.Header {
+  background-color: blue;
+  width: 100%;
+  height: 100px;
+}
+
+.body.left {
+  background-color: orangered;
+  float: left;
+  width: 20%;
+  height: 450px;
+}
+.body.main {
+  background-color: cornflowerblue;
+  float: left;
+  width: 60%;
+  height: 450px;
+}
+.body.right {
+  background-color: brown;
+  float: left;
+  width: 20%;
+  height: 450px;
+}
+.footer {
+  background-color: greenyellow;
+  clear: both;
+  height: 80px;
+}
+* {
+  width: 100%;
+  box-sizing: border-box;
+}
+p {
+  position: relative;
+  left: 5px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background-image: linear-gradient(#362c2c, white);
+  background-repeat: no-repeat;
+}
+.body.left p:hover {
+  background-color: blue;
+  color: white;
+}
